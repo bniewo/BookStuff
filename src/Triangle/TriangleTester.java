@@ -1,4 +1,6 @@
+package Triangle;
 import java.util.Scanner;
+
 
 /**
  * Created by bniewo on 2/12/2015.
@@ -9,19 +11,19 @@ public class TriangleTester {
         Triangle triangle = new Triangle();
 
         System.out.print("Enter x coordinate for point A: ");
-        double  = in.nextInt();
+        triangle.pAX  = in.nextDouble();
         System.out.print("Enter y coordinate for point A: ");
-        double  = in.nextInt();
+        triangle.pAY = in.nextDouble();
 
         System.out.print("Enter x coordinate for point B: ");
-        double  = in.nextInt();
+        triangle.pBX = in.nextDouble();
         System.out.print("Enter y coordinate for point B: ");
-        double  = in.nextInt();
+        triangle.pBY = in.nextDouble();
 
         System.out.print("Enter x coordinate for point C: ");
-        double  = in.nextInt();
+        triangle.pCX = in.nextDouble();
         System.out.print("Enter y coordinate for point C: ");
-        double  = in.nextInt();
+        triangle.pCY = in.nextDouble();
 
         System.out.print("The length of side A is: ");
         System.out.println(triangle.giveSideA());
